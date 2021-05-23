@@ -1,0 +1,50 @@
+@media screen and (orientation: landscape) {
+  .tableBody {
+    border: solid 1px #000;
+    width: 50%;
+    height: 90%;
+    align-self: center;
+  }
+
+  .toggle {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 10%;
+    height: 10%;
+    background-color: #9377a6;
+    font-size: 1.3em;
+  }
+
+  .body {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 10%;
+    height: 10%;
+    background-color: #d7b7ed;
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .tableBody {
+    border: solid 1px black;
+    height: 50%;
+    width: 65%;
+  }
+
+  .toggle {
+    padding: 3% 3%;
+    background-color: #9377a6;
+    font-size: 1em;
+    width: 10%;
+    height: 10%;
+  }
+
+  .body {
+    padding: 3% 3%;
+    background-color: #d7b7ed;
+    font-size: 1em;
+    width: 10%;
+    height: 10%;
+  }
+}

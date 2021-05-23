@@ -1,0 +1,27 @@
+.digit {
+  background-color: #b2beed;
+  color: #000000;
+  font-size: 1.5em;
+  padding: 7% 10%;
+}
+
+.enter {
+  background-color: #65a389;
+  color: #000000;
+  font-size: 1.5em;
+  padding: 7% 5%;
+}
+
+.del {
+  background-color: #cf8080;
+  color: #000000;
+  font-size: 1.5em;
+  padding: 7% 7.6%;
+}
+
+.numberPad {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px black;
+  width: 70%;
+}

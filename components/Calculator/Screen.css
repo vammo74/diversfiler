@@ -1,0 +1,21 @@
+.screen {
+  border: solid 1px black;
+  box-shadow: 3px 3px #dab3ff, 0 3px #dab3ff, -3px 3px #e6ccff,
+    -3px -2px #e6ccff;
+  padding: 5% 3%;
+  margin: 0 5% 10% 5%;
+}
+
+.product {
+  display: inline-block;
+  font-size: 2.5em;
+  width: 48%;
+  font-weight: bold;
+}
+
+.inputAnswer {
+  background-color: #ccd4cb;
+  display: inline-block;
+  font-size: 2.5em;
+  width: 48%;
+}
